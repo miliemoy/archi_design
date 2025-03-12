@@ -1,3 +1,81 @@
 * {
     box-sizing: border-box;
    }
+
+/* Haut de page : Conception et réalisation */
+   section.sous-titres {
+    margin: 0, auto;
+    padding: 150px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    background: url(../images/bg-header.jpg) center #f9f9f9;
+    background-size: cover;
+
+    .div1 {
+        margin: 1rem;
+        background-color: #CB8606;
+        color: #f9f9f9;
+        text-transform: uppercase;
+        padding: 1px 5px;
+        align-self: center;
+        font-family: "Fjalla One";
+    }
+    .div2 {
+        margin: 1rem;
+        background-color: #f9f9f9;
+        color: #00748D;
+        font-weight: bold;
+        padding: 5px;
+        align-self: center;
+    }
+   }
+
+   /* Partie "Nos prestation" */
+section.prestations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    .blocs {
+        width: 25%;
+        flex-direction: row;
+        align-self: center;
+
+        .encarts {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-self: center;
+        }
+    }
+}
+
+ .icone {
+    background-color: #CB8606;
+    color: #f9f9f9;
+    padding: 0.8rem;
+    align-self: center;
+}
+
+.bloc_title {
+    font-size: 1.112rem;
+    font-weight: bold;
+    align-self: center;
+}
+
+/* Règles communes aux classes Prestations et Prestataires */
+main ul {
+    list-style-type: none;
+    align-self: center;
+}
+
+.titre {
+    color: #00748D;
+    font-size: 1.667rem;
+    font-family: "Fjalla One";
+}

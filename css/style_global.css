@@ -1,3 +1,85 @@
 * {
     box-sizing: border-box;
+    font-size: 18px;
+    font-family: Nunito;
    }
+
+body main {
+    max-width: 1200px;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    width: 100%;
+    margin: 0, auto;
+    padding: 50px;
+    font-size: 1.112rem;
+    background-color: #00748D;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Fjalla One";
+
+    .logo_titre {
+        font-family: "Fjalla One";
+        font-size: 1.112rem;
+        margin: 0, auto;
+} 
+}
+
+header {
+    .menu {
+        display: inline;
+        flex-direction: row;
+        justify-content: flex-end;   
+    }
+    .menu ul {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+    a:hover {
+        background-color: #f9f9f9; 
+        color: #00748D;
+    }
+}
+
+footer {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    a {
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+    section.wa {
+        background-color: #414141;
+        width: 100%;
+        padding: 50px;
+        margin: 0, auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: content-box;
+    
+        a {color: rgb(161, 17, 17);}
+    }
+} 
+
+/* Boutons */
+ a {
+    :hover {
+        background-color: #f9f9f9; 
+        color: #00748D;
+    }
+    button {
+        background-color:  #00748D;
+        color: #f9f9f9;
+        padding: 0.5rem 1rem;
+    }
+}
